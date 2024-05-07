@@ -13,3 +13,7 @@ python do_build() {
 python do_clean() {
     bb.plain("********");
 }
+
+python do_configure() {
+    bb.fatal("fatal error");
+}
