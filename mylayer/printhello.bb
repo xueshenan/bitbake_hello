@@ -9,3 +9,7 @@ python do_build() {
     bb.plain("*                  *");
     bb.plain("********************");
 }
+
+python do_clean() {
+    bb.plain("********");
+}
